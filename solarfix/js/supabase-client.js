@@ -8,7 +8,7 @@
 //    your data, not secrecy of this key.
 // ============================================================
 
-const SUPABASE_URL = "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY_HERE";
+const SUPABASE_URL = "https://eeczqnwqpytviytvpwou.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlY3pxbndxcHl0dml5dHZwd291Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyMzExMDksImV4cCI6MjEwMzgwNzEwOX0.HRYw_aGm7L6mWq_ZviLHCkbYvPzxZ8Mvz3Rax7kqLMg";
 
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
